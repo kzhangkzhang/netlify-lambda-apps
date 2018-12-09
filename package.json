@@ -1,0 +1,17 @@
+{
+  "name": "021_serverless_lambda_function",
+  "version": "1.0.0",
+  "description": "> AWS Lambda function hosted by Netlify. Learned from Youtube Brad Traversy",
+  "main": "index.js",
+  "scripts": {
+    "lambda-server": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions"
+  },
+  "keywords": [],
+  "author": "Kevin Zhang",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "netlify-lambda": "^1.1.0"
+  }
+}

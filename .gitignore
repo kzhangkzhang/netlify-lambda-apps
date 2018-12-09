@@ -1,0 +1,7 @@
+# NPM modules
+node_modules/
+functions/
+
+# Kevin's own docs
+*.docx
+/archive
